@@ -1,9 +1,9 @@
 import Client from "./client";
 
 const client = new Client();
-try {
-    console.log(client.send("hello"));
-    console.log(client.send("hello, world"));
-} catch (error) {
-    console.error(error.message);
-}
+["hello", "hello, world", ""].map((text) => {
+    client
+        .send(text)
+        .then((msg) => { console.log(msg) })
+        .catch(error => console.error(error));
+});

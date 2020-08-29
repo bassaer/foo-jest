@@ -6,12 +6,18 @@ class Client {
     constructor() {
         this.validator = new Validator(10);
     }
-    send = (test: string) => {
-        const msg = format(test);
-        if (!this.validator.validate(msg)) {
-            throw new Error("VALIDATION_ERROR");
-        }
-        return "OK";
+    send = (text: string): Promise<string> => {
+        return new Promise((resolve, reject) => {
+            if (!text) {
+                throw new Error("INVALID_TEXT_ERROR");
+            }
+            const msg = format(text);
+            if (!this.validator.validate(msg)) {
+                reject("VALIDATION_ERROR");
+            }
+            resolve("OK");
+        })
+
     }
 }
 
