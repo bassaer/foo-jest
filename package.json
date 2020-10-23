@@ -1,0 +1,31 @@
+{
+    "name": "foo-jest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bassaer/foo-jest.git"
+    },
+    "keywords": [],
+    "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bassaer/foo-jest/issues"
+    },
+    "homepage": "https://github.com/bassaer/foo-jest#readme",
+    "devDependencies": {
+        "@types/jest": "^26.0.10",
+        "@types/node": "^14.6.2",
+        "jest": "^26.4.2",
+        "ts-jest": "^26.3.0",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2"
+    }
+}
