@@ -515,6 +515,14 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/cassandra-driver@3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@types/cassandra-driver/-/cassandra-driver-3.6.0.tgz#23e045bdb19591e366308e6a0da04639fe037778"
+  integrity sha512-Xx4XRuJUV1h1kNBRI78VSrporvBgzvwOtvo9AFic3EBdSk1EC8Gqr41WkMw7My/XVt0R9ux3z+Gyk9LgfEs/XA==
+  dependencies:
+    "@types/long" "*"
+    "@types/node" "*"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -561,6 +569,11 @@
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
+
+"@types/long@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
+  integrity sha512-5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==
 
 "@types/node@*", "@types/node@^14.6.2":
   version "14.6.2"
@@ -920,6 +933,13 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+
+cassandra-driver@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/cassandra-driver/-/cassandra-driver-3.6.0.tgz#a9fb78ca6fcc1f5bf3f3258efb6cc683a9c3f558"
+  integrity sha512-CkN3V+oPaF5RvakUjD3uUjEm8f6U8S0aT1+YqeQsVT3UDpPT2K8SOdNDEHA1KjamakHch6zkDgHph1xWyqBGGw==
+  dependencies:
+    long "^2.2.0"
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2401,6 +2421,11 @@ lodash@^4.17.19:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+long@^2.2.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-2.4.0.tgz#9fa180bb1d9500cdc29c4156766a1995e1f4524f"
+  integrity sha1-n6GAux2VAM3CnEFWdmoZleH0Uk8=
 
 make-dir@^3.0.0:
   version "3.1.0"
